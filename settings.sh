@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Some stuff was taken from
 # https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 # and

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 dir="$HOME/Developer/jonasrosland"
 mkdir -p $dir
 cd $dir
