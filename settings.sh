@@ -13,7 +13,7 @@
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-read -p "Enter computer name:" hostname
+read -p -r "Enter computer name:" hostname
 sudo scutil --set ComputerName "$hostname"
 sudo scutil --set HostName "$hostname"
 sudo scutil --set LocalHostName "$hostname"
