@@ -1,8 +1,8 @@
 #!/bin/bash
 # Most of this is from https://github.com/paulmillr/dotfiles/blob/master/symlink-dotfiles.sh
 
-dev="$HOME/Developer"
-dotfiles="$dev/jonasrosland/osx-bootstrap/dotfiles"
+dev="$HOME/repos"
+dotfiles="$dev/osx-bootstrap/dotfiles"
 
 if [[ -d "$dotfiles" ]]; then
   echo "Symlinking dotfiles from $dotfiles"
