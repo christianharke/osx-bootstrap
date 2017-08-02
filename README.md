@@ -1,8 +1,6 @@
 osx-bootstrap
 =============
 
-*Updated to work on OS X Yosemite 10.10.1*
-
 #### Bootstrap for new OS X installs
 
 These files will install a bunch of great tools on your newly installed Mac. If it's not a brand new install of OS X you'll most probably be able to use these anyway :)
@@ -14,7 +12,7 @@ These files will install a bunch of great tools on your newly installed Mac. If 
 Run the following command to do a proper install of Homebrew, cask, oh-my-zsh, and a bunch of great tools and apps:
 
 ```
-curl --silent https://raw.githubusercontent.com/jonasrosland/osx-bootstrap/master/install.sh | sh
+curl --silent https://raw.githubusercontent.com/christianharke/osx-bootstrap/master/install.sh | sh
 ```
 
 ## Customize Install
