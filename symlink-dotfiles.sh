@@ -19,7 +19,7 @@ link() {
   ln -s "$from" "$to"
 }
 
-for location in $dotfiles/.{zshrc,tmux.conf} ; do
+for location in $dotfiles/.{zshrc} ; do
   file="${location##*/}"
   file="${file%.sh}"
   link "$location" "$HOME/$file"
