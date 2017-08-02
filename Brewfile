@@ -1,41 +1,23 @@
-## Productive stuff
-ack
-httpie
-wget
-packer
-watch
-
-## Programming stuff
-rbenv
-ruby-build
-ngrok
-nvm
-npm
-python
+curl
+direnv
+gifsicle
 git
-git-flow
-
-## Shell stuff
+gpg
+heroku
+hub
+iproute2mac
+nmap
+nvm
+openssl
+readline
+shellcheck
+tldr
+tree
+wget
+wireshark
+wrk
+yarn
+youtube-dl
 zsh
 zsh-completions
 zsh-syntax-highlighting
-tmux
-tmate
-
-## VPN stuff
-#tuntap
-#openconnect
-
-## brew cask and more versions of casks
-caskroom/cask/brew-cask
-
-## Pivotal CF cli
-cloudfoundry-cli
-
-## Time-waste stuff
-#fortune
-#cowsay
-youtube-dl
-
-## Games
-homebrew/games/ckan
