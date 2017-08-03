@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/zsh
+
 # Most of this is from https://github.com/paulmillr/dotfiles/blob/master/symlink-dotfiles.sh
 
 dev="$HOME/repos"

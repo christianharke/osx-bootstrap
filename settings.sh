@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # Some stuff was taken from
 # https://github.com/mathiasbynens/dotfiles/blob/master/.osx
@@ -13,7 +13,8 @@
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-read -r -p "Enter computer name:" hostname
+echo -n "Enter computer name: "
+read hostname
 sudo scutil --set ComputerName "$hostname"
 sudo scutil --set HostName "$hostname"
 sudo scutil --set LocalHostName "$hostname"
