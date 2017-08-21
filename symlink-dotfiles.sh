@@ -20,7 +20,7 @@ link() {
   ln -s "$from" "$to"
 }
 
-for location in $dotfiles/.{zshrc} ; do
+for location in $dotfiles/.{gitconfig,zshrc} ; do
   file="${location##*/}"
   file="${file%.sh}"
   link "$location" "$HOME/$file"
