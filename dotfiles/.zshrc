@@ -116,3 +116,8 @@ npm() {
         command npm "${@}"
     fi
 }
+
+# Homebrew nvm
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
