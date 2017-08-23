@@ -66,6 +66,12 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
+# Install app updates automatically
+defaults write /Library/Preferences/com.apple.commerce AutoUpdate -bool true
+
+# Install OS X updates automatically
+defaults write /Library/Preferences/com.apple.commerce AutoUpdateRestartRequired -bool true
+
 
 ###############################################################################
 # SSD-specific tweaks                                                         #
