@@ -2,6 +2,7 @@ curl
 direnv
 gifsicle
 git
+git-lfs
 gpg
 heroku
 hub
