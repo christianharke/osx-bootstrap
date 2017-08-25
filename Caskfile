@@ -7,6 +7,7 @@ cd-to
 dash
 docker
 dropbox
+# fiddler # installation fails
 firefox
 google-chrome
 gpgtools-beta
