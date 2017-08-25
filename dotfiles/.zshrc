@@ -105,6 +105,10 @@ bindkey '[I' kill-whole-line
 # Docker aliases
 alias doco='docker-compose'
 
+# Docker CLI completion
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
+
 # NPM aliases
 npm() {
     if [[ ${1} == 'run' ]]
