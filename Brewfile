@@ -41,7 +41,7 @@ cask "cd-to"
 cask "dash"
 cask "docker"
 cask "dropbox"
-cask "fiddler" # installation fails
+cask "fiddler"
 cask "firefox"
 cask "google-chrome"
 cask "gpgtools-beta"
