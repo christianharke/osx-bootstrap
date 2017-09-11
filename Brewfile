@@ -54,7 +54,7 @@ cask "keepassxc"
 cask "keka"
 cask "libreoffice"
 cask "licecap"
-# cask "logitech-harmony" # untrusted certificate
+cask "logitech-myharmony"
 cask "macvim"
 cask "microsoft-office"
 cask "psequel"
