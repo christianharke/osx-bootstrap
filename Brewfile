@@ -76,6 +76,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vmware-fusion"
 cask "whatsapp"
+cask "xmarks-safari"
 
 # QuickLook plugins
 cask "qlcolorcode"
