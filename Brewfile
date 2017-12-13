@@ -10,6 +10,7 @@ brew "gpg"
 brew "heroku"
 brew "hub"
 brew "iproute2mac"
+brew "mas"
 brew "nmap"
 brew "nvm"
 brew "openssl"
@@ -91,3 +92,8 @@ cask "qlmarkdown"
 cask "quicklook-json"
 cask "betterzipql"
 cask "suspicious-package"
+
+##
+# Mac App Store
+##
+mas "Xcode", id: 497799835
