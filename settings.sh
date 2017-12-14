@@ -20,6 +20,9 @@ sudo scutil --set HostName "$hostname"
 sudo scutil --set LocalHostName "$hostname"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$hostname"
 
+# Config global .gitignore
+git config --global core.excludesfile ~/.gitignore_global
+
 # Set standby delay to 24 hours (default is 1 hour)
 # You can check current values with `pmset -g`.
 # sudo pmset -a standbydelay 86400
