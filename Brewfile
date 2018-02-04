@@ -33,11 +33,13 @@ tap "buo/cask-upgrade"
 tap "caskroom/drivers"
 tap "caskroom/versions"
 
+cask "xbox360-controller-driver-unofficial"
 cask "adobe-acrobat-reader"
 cask "android-file-transfer"
 cask "authy"
 cask "bittorrent"
 cask "boostnote"
+cask "brave"
 cask "caffeine"
 cask "cd-to"
 cask "dash"
@@ -96,4 +98,6 @@ cask "suspicious-package"
 ##
 # Mac App Store
 ##
+mas "Lastpass", id: 926036361
+mas "Wunderlist", id: 410628904
 mas "Xcode", id: 497799835
