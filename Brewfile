@@ -98,5 +98,6 @@ cask "suspicious-package"
 ##
 # Mac App Store
 ##
+mas "iMovie", id: 408981434
 mas "Wunderlist", id: 410628904
 mas "Xcode", id: 497799835
