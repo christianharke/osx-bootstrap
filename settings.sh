@@ -455,6 +455,15 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
 
 ###############################################################################
+# ForkLift                                                               #
+###############################################################################
+
+# Set ForkLift as default over Finder
+defaults write -g NSFileViewer -string com.binarynights.ForkLift-3;
+defaults write com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers -array-add '{LSHandlerContentType="public.folder";LSHandlerRoleAll="com.binarynights.ForkLift-3";}'
+
+
+###############################################################################
 # Kill/restart affected applications                                          #
 ###############################################################################
 
