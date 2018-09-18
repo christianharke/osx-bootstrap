@@ -31,7 +31,6 @@ brew "zsh-syntax-highlighting"
 ##
 # casks
 ##
-tap "buo/cask-upgrade"
 tap "caskroom/drivers"
 tap "caskroom/versions"
 
