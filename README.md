@@ -1,5 +1,8 @@
-osx-bootstrap
-=============
+> ## This Project Is Deprecated
+>
+> Glimpse into the more convenient and multiple OS capable [Ansible based alternative](https://github.com/christianharke/ansible-workstation) instead.
+
+# osx-bootstrap
 
 #### Bootstrap for new OS X installs
 
@@ -19,11 +22,11 @@ curl --silent https://raw.githubusercontent.com/christianharke/osx-bootstrap/mas
 
 Names and directories are hardcoded into this project right now, so it makes more sense to take a few steps before leveraging this tool. To make it yours be sure to:
 
-* `git clone https://github.com/jonasrosland/osx-bootstrap.git` to get these files locally
-* Edit `install.sh` and define your `$dir` directory
-* Edit `settings.sh` and name your computer
-* Edit `symlink-dotfiles.sh` and define your `$dev` directory
-* Review and customize the apps installed from Brewfile & Caskfile
+- `git clone https://github.com/jonasrosland/osx-bootstrap.git` to get these files locally
+- Edit `install.sh` and define your `$dir` directory
+- Edit `settings.sh` and name your computer
+- Edit `symlink-dotfiles.sh` and define your `$dev` directory
+- Review and customize the apps installed from Brewfile & Caskfile
 
 When you're all set, run `bash bootstrap.sh` to let the games begin!
 
